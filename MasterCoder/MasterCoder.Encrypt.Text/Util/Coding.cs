@@ -7,8 +7,23 @@ using System.Threading.Tasks;
 
 namespace MasterCoder.Encrypt.Text.Util
 {
-    public class Coding : ICoding
+    internal abstract class Coding : Converter, ICoding, IDecoding, IEncoding
     {
+        public String Decoding(string text)
+        {
+            if (text is null || text == string.Empty)
+                throw new ArgumentNullException("Parameter cannot be null.");
+
+            return Text(text);
+        }
+        public String Encoding(string text)
+        {
+            if (text is null || text == string.Empty)
+                throw new ArgumentNullException("Parameter cannot be null.");
+
+            //Step 1: Converte texto para caracteres ASCII.
+            return ASCII(text);
+        }
         public bool IsEncrypt(string textEncoding)
         {
             //Variaveis

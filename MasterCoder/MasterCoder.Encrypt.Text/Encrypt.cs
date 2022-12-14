@@ -8,12 +8,11 @@ using System.Threading.Tasks;
 
 namespace MasterCoder.Encrypt.Text
 {
-    public class Encrypt
+    public sealed class Encrypt
     {
+        //Propriedades
         public ICoder Coder { get; set; }
-        public Encrypt()
-        {
-            Coder = new Coder();
-        }
+        //Construtores
+        public Encrypt() => Coder = new Coder();
     }
 }

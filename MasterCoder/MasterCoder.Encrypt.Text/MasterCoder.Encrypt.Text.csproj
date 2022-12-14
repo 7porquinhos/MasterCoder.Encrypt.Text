@@ -1,16 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApplicationIcon>IconEncrypt.ico</ApplicationIcon>
     <NoWin32Manifest>true</NoWin32Manifest>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType></RepositoryType>
     <RepositoryUrl>https://github.com/7porquinhos/MasterCoder.Encrypt.Text</RepositoryUrl>
+    <Description>DLL usada para criptografar e Descriptografar texto usando ASCII</Description>
+    <PackageProjectUrl>https://github.com/7porquinhos/MasterCoder.Encrypt.Text</PackageProjectUrl>
+    <PackageIcon>IconEncrypt.png</PackageIcon>
+    <ApplicationIcon>IconEncrypt.ico</ApplicationIcon>
+    <Company>PalaceDevelopers</Company>
+    <VersionPrefix>1.0.1</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +24,13 @@
 
   <ItemGroup>
     <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="IconEncrypt.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

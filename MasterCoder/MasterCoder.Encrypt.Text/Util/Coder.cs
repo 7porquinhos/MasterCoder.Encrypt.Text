@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MasterCoder.Encrypt.Text.Util
 {
-    public class Coder : EncryptUtil , ICoder
+    internal class Coder : Coding , ICoder
     {
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MasterCoder.Encrypt.Text.Util
 {
-    public class Converter : IConverter
+    internal abstract class Converter : IConverter
     {
         public string ASCII(string text)
         {
