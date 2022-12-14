@@ -4,8 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <NoWin32Manifest>true</NoWin32Manifest>
-    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType></RepositoryType>
@@ -15,7 +14,9 @@
     <PackageIcon>IconEncrypt.png</PackageIcon>
     <ApplicationIcon>IconEncrypt.ico</ApplicationIcon>
     <Company>PalaceDevelopers</Company>
-    <VersionPrefix>1.0.1</VersionPrefix>
+    <VersionPrefix>1.0.3</VersionPrefix>
+    <SignAssembly>False</SignAssembly>
+    <PackAsTool>False</PackAsTool>
   </PropertyGroup>
 
   <ItemGroup>

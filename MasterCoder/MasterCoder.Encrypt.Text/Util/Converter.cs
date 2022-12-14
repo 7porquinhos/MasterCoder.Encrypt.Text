@@ -12,10 +12,12 @@ namespace MasterCoder.Encrypt.Text.Util
     {
         public string ASCII(string text)
         {
+            //Variaveis
             var sb = new StringBuilder();
             string textEncrypt = string.Empty;
             int countNumber = 0;
             int unicode = 0;
+            //Loop para realizar a encriptação de cada caracter.
             foreach (char c in text)
             {
                 unicode = c;
@@ -50,9 +52,9 @@ namespace MasterCoder.Encrypt.Text.Util
         }
         public string Text(string text)
         {
+            //Variaveis
             var sb = new StringBuilder();
-            //text = "70.69:2%109.108:3%106.105:3%102.101:3%109.108:3%59.58:2%51.50:2%49.48:2%51.50:2%51.50:2%47.46:2%50.49:2%51.50:2%47.46:2%50.49:2%51.50:2%";
-            //int count = 0;
+            //Loop usado para fazer a Descriptação de cada caracter ASCII.
             foreach (var porcentagemSplit in text.Split("%"))
             {
                 string pontoSplit = porcentagemSplit.Split(":")[0];

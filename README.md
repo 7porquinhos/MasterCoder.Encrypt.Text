@@ -8,7 +8,7 @@ Biblioteca para realizar a Encriptação e Descriptação do texto de entrada.
 Use the package manager [Package Manager](https://www.nuget.org/packages/MasterCoder.Encrypt.Text/) to install MasterCoder.Encrypt.Text.
 
 ```bash
-PM > Install-Package MasterCoder.Encrypt.Text -Version 1.0.1
+PM > Install-Package MasterCoder.Encrypt.Text -Version 1.0.3
 ```
 
 ## Usage
