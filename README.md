@@ -1,4 +1,4 @@
-![Logo]()
+![Logo](https://raw.githubusercontent.com/7porquinhos/MasterCoder.Encrypt.Text/main/MasterCoder/MasterCoder.Encrypt.Text/IconEncrypt.png)
 
 # MasterCoder.Encrypt.Text
 Biblioteca para realizar a Encriptação e Descriptação do texto de entrada.
