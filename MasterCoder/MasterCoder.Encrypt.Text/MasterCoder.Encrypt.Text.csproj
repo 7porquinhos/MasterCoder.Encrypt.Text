@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>IconEncrypt.ico</ApplicationIcon>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType></RepositoryType>
+    <RepositoryUrl>https://github.com/7porquinhos/MasterCoder.Encrypt.Text</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="IconEncrypt.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
